@@ -1,1 +1,26 @@
 tjis is file 1
+
+
+git add .  ---> means adding all filees in working directory
+git add index.html means adding singlr file
+
+
+
+git commit -m "commites the file"  --> -m means messaage it requried to pass the message when you commited
+
+
+git branch -M main goto to the main brach to push the current file in remote reppository
+git remote add origin https://github.com/NirajDandgw/Gitpractice-.git    add the orgin where we want to push the files
+
+when we are change only one file and there is no untracked file then we add commiet in single command
+git commit -am "changes are added"
+
+
+
+when you dont want to write repeat repeat
+git push orgin main
+then use (git push -u origin main) u for upstream that we are set our origin
+then we want to write only (git push) command)
+
+same for above
+ git push --set-upstream origin feature 
